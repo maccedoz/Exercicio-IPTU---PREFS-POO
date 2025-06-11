@@ -1,5 +1,3 @@
-// Exemplo de implementação em Java
-
 public class Apartamento extends Imovel {
     private int andar;
     private double areaPrivativa;
