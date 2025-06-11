@@ -1,9 +1,10 @@
 public class Apartamento extends Imovel {
     private int andar;
     private double areaPrivativa;
-
-    public Apartamento(Endereco endereco, double valorDeAvaliacao, Pessoa responsavel, int andar, double areaPrivativa) {
-        super(endereco, valorDeAvaliacao, responsavel);
+    private double valorDeAvaliacao;
+    
+    public Apartamento(Endereco endereco, Responsavel responsavel, double valorDeAvaliacao, int andar, double areaPrivativa) {
+        super(endereco, responsavel);
         this.andar = andar;
         this.areaPrivativa = areaPrivativa;
     }
