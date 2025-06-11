@@ -16,4 +16,8 @@ public class Apartamento extends Imovel {
     public double getAreaPrivativa() {
         return areaPrivativa;
     }
+
+    public double valorDeAvaliacao)(){
+        return valorDeAvaliacao;
+    }
 }
